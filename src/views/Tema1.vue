@@ -35,7 +35,6 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Dirección de Impuestos y Aduanas Nacionales DIAN.
                   p.text-small Para conocer estos documentos, ingrese a la página de la Dirección de Impuestos y Aduanas Nacionales (DIAN) en la pestaña normatividad a través del siguiente enlace:
                 .col-sm-auto
                   a.boton.color-acento-contenido.texto-blanco(href="https://www.dian.gov.co/normatividad/Paginas/normas.aspx" target="_blank")
@@ -65,8 +64,8 @@
         p.mb-0 #[b La Administración de Impuestos Nacionales de Colombia ha establecido sanciones en caso de que los contribuyentes incurran en evasión fiscal. Estas se encuentran en el Estatuto Tributario, en los Artículos 657, 658-2, 669, 795.]
     .row.justify-content-center
       .col-lg-11
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="Art. 657. Sanción de clausura del establecimiento.")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Art. 657. Sanción de clausura del establecimiento")
             .col-12
               p La Administración Tributaria podrá imponer la sanción de clausura o cierre del establecimiento de comercio, oficina, consultorio y, en general, del sitio donde se ejerza la actividad, profesión u oficio, mediante la imposición de sellos oficiales que contendrán la leyenda “CERRADO POR EVASIÓN” en los siguientes casos:
               hr.mb-5
@@ -94,13 +93,18 @@
                     img(src='@/assets/curso/img9.svg', style="width: 150px").m-auto
                 .col-11
                   p Por un término de tres (3) días, cuando el agente retenedor o el responsable del régimen común del impuesto sobre las ventas o del impuesto nacional al consumo, o el responsable del impuesto nacional a la gasolina y al ACPM, o del impuesto nacional al carbono, se encuentre en omisión de la presentación de la declaración o en mora de la cancelación del saldo a pagar, superior a tres (3) meses contados a partir de las fechas de vencimiento para la presentación y pago establecidas por el Gobierno Nacional. No habrá lugar a la clausura del establecimiento para aquellos contribuyentes cuya mora se deba a la existencia de saldos a favor pendientes de compensar, siempre que se hubiere presentado la solicitud de compensación en los términos establecidos por la ley; tampoco será aplicable la sanción de clausura, siempre que el contribuyente declare y pague. Los eximentes de responsabilidad previstos en el artículo 665 de este Estatuto se tendrán en cuenta para la aplicación de esta sanción, siempre que se demuestre tal situación en la respuesta al pliego de cargos (Secretaría del Senado, 2020, 15 de octubre).
-          div(titulo="Art. 658-2. Sanción por evasión pasiva.")
+          div(titulo="Art. 658-2. Sanción por evasión pasiva")
             .row
               .col-12
                 p Las personas o entidades que realicen pagos a contribuyentes y no relacionen el correspondiente costo o gasto dentro de su contabilidad, o estos no hayan sido informados a la administración tributaria, existiendo obligación de hacerlo, o cuando esta lo hubiere requerido, serán sancionados con una multa equivalente al valor del impuesto teórico que hubiera generado tal pago, siempre y cuando el contribuyente beneficiario de los pagos haya omitido dicho ingreso en su declaración tributaria.
                 p Sin perjuicio de la competencia general para aplicar sanciones administrativas y de las acciones penales que se deriven por tales hechos, la sanción prevista en este artículo se podrá proponer, determinar y discutir dentro del mismo proceso de imposición de sanción o de determinación oficial que se adelante contra el contribuyente que no declaró el ingreso. 
                 p-mb-0 En este último caso, las dependencias competentes para adelantar la actuación frente a dicho contribuyente serán igualmente competentes para decidir frente a la persona o entidad que hizo el pago (Secretaría del Senado, 2020, 15 de octubre).
-          div(titulo="Art. 795. Solidaridad de las entidades no contribuyentes que sirvan de elemento de evasión.")
+          div(titulo="Art. 669. Sanción por omitir ingresos o servir de instrumento de evasión")
+            .row
+              .col-12
+                p Los responsables del impuesto sobre las ventas, pertenecientes al régimen común, que realicen operaciones ficticias, omitan ingresos o representen sociedades que sirvan como instrumento de evasión tributaria, incurrirán en una multa equivalente al valor de la operación que es motivo de esta.
+                p.mb-0 Esta multa se impondrá por el Administrador de Impuestos Nacionales, previa comprobación del hecho y traslado de cargos al responsable por el término de un (1) mes para contestar (Secretaría del Senado, 2020, 15 de octubre).
+          div(titulo="Art. 795. Solidaridad de las entidades no contribuyentes que sirvan de elemento de evasión")
             .row
               .col-12
                 p.mb-0 Cuando los no contribuyentes del impuesto sobre la renta y complementarios o los contribuyentes exentos de tal gravamen, sirvan como elementos de evasión tributaria de terceros, tanto la entidad no contribuyente o exenta, como los miembros de la junta o el consejo directivo y su representante legal, responden solidariamente con el tercero por los impuestos omitidos y por las sanciones que se deriven de la omisión (Secretaría del Senado, 2020, 15 de octubre).
@@ -279,7 +283,7 @@
             figure
               img(src='@/assets/curso/img24.svg', style="width: 150px").m-auto
           .col-11.mb-4
-            p #[b Sanción por corrección.]
+            p #[b Sanción por corrección]
             p Teniendo en cuenta que esta sanción se aplica sobre los valores que se están corrigiendo en las declaraciones tributarias, no se acumula por periodos, se realiza sobre un único periodo, con un valor del 10%; si hay un emplazamiento, la sanción se duplicará, por lo tanto, la sanción sería del 20%
             p.mb-0 #[b Ejemplo:] 
             p Si se debía presentar la declaración el 14 de junio del 2020 y se presentó el 15 de julio del 2020, inicialmente se canceló un valor de $1.000.000 y después de realizar la revisión de la declaración, se evidencia que el valor a pagar en realidad era de $5.000.000, se procede a calcular la sanción:
@@ -289,7 +293,7 @@
       .col-lg-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img32.svg', style="width: 450px").m-auto
-        p.mb-0.mt-4 Liquidación de la sanción
+        p.mb-0.mt-4 #[b Liquidación de la sanción]
         p.mb-0 S x C = $4.000.000 x 10% = $400.000
         p.mb-0 Se debe tener presente que, si en la corrección se presenta un menor valor a pagar o un mayor saldo a su favor, no aplica sanción si así lo determina la Dirección de Impuestos y Aduanas Nacionales (Herrera & Hernández, 2016).
   

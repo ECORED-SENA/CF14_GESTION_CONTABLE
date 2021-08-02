@@ -33,7 +33,7 @@
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
-                p.text-regular son todos aquellos sitios de internet que almacenan información de una empresa, y a través de la cual los usuarios pueden acceder a cuentas personales y detalles sobre la empresa. Las plataformas digitales son ejecutadas por programas o aplicaciones cuyo contenido es ejecutable en determinados sistemas operativos, ya sean contenidos visuales, de texto, audios, videos, simulaciones, etc.
+                p.text-regular Son todos aquellos sitios de internet que almacenan información de una empresa, y a través de la cual los usuarios pueden acceder a cuentas personales y detalles sobre la empresa. Las plataformas digitales son ejecutadas por programas o aplicaciones cuyo contenido es ejecutable en determinados sistemas operativos, ya sean contenidos visuales, de texto, audios, videos, simulaciones, etc.
                 i.fas.fa-quote-right.d-flex.justify-content-end
               .bloque-texto-d__autor 
                 .h5.mb-0 Rankia, 2019
@@ -45,7 +45,7 @@
     #t_2_2
     .titulo-segundo
       h2 2.2 Servicios en línea
-    p.mb-5 #[b Apreciados aprendices, en esta ocasión se explorará la página web de la Dirección de Impuestos y Aduanas Nacionales DIAN.]
+    p.mb-5 Apreciados aprendices, en esta ocasión se explorará la página web de la Dirección de Impuestos y Aduanas Nacionales DIAN. La página fue diseñada con el fin de ofrecer diferentes servicios en línea, que permita a los usuarios realizar diferentes trámites sin necesidad de dirigirse a las instalaciones físicas de la entidad; para esto se ingresa a través del siguiente enlace:
     .row.justify-content-center
       .col-11
         .tarjeta.color-primario.p-3.mb-5
@@ -56,10 +56,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Dirección de Impuestos y Aduanas Nacionales DIAN.
-                  p.text-small La página fue diseñada con el fin de ofrecer diferentes servicios en línea, que permita a los usuarios realizar diferentes trámites sin necesidad de dirigirse a las instalaciones físicas de la entidad. 
                 .col-sm-auto
                   a.boton.color-acento-contenido.texto-blanco(href="https://www.dian.gov.co/" target="_blank")
-                    span(style="color:#000000 !important;") Descargar
+                    span(style="color:#000000 !important;") Ir
                     i.fas.fa-link(style="color:#000000 !important;")
     p.mb-5 Para apropiar el conocimiento de este proceso es necesario la comprensión del siguiente término:
     .row.align-items-center.p-4.bg-color1.mb-5
@@ -73,7 +72,7 @@
         SlyderC.mb-5(:datos="datosSlyder")
     .row.p-4.bg-color3.align-items-center.mb-5
       .col-12
-        p.mb-5 En el menú de la plataforma digital de la DIAN se encuentran las diferentes opciones de servicios que presta en línea
+        p.mb-5 En el menú de la plataforma digital de la DIAN se encuentran las diferentes opciones de servicios que presta en línea.
       .col-lg-4.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img39.svg', style="width: 350px").m-auto
@@ -102,7 +101,7 @@
       .col-lg-10
         SlyderC.mb-4(:datos="datosSlyder1")
         .row.mb-4
-          .col-5
+          .col-10.col-lg-5
             a.anexo.mb-4.mb-lg-0(href="https://agendamientodigiturno.dian.gov.co/" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
@@ -119,7 +118,7 @@
     separador.mb-5
     #t_2_4
     .titulo-segundo
-      h2 2.4 Aplicativos e Impuestos
+      h2 2.4 Aplicativos e impuestos
     .row.justify-content-center
       .col-11
         .row.align-items-start

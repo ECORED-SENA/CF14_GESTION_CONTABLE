@@ -226,7 +226,7 @@ export default {
     {
       referencia:
         'Es.linkfang.org. 2021. Plataforma digital. Plataforma digital - es.LinkFang.org.',
-      link: 'https://es.linkfang.org/wiki/Plataforma_digital',
+      link: '',
     },
     {
       referencia:
@@ -241,8 +241,7 @@ export default {
     {
       referencia:
         'Rankia (2019). ¿Qué son las plataformas digitales y para qué sirven? Rankia.co.',
-      link:
-        'https://www.rankia.co/blog/analisis-colcap/4317884-que-son-plataformas-digitales-para-sirven',
+      link: '',
     },
     {
       referencia:
@@ -283,7 +282,7 @@ export default {
         'es el castigo dado a una persona natural o jurídica por el incumplimiento de alguna norma.',
     },
     {
-      termino: 'Unidad de valor tributario',
+      termino: 'Unidad de Valor Tributario',
       significado:
         'la Unidad de Valor Tributario (UVT) es una unidad referencial que representa un valor en pesos y es actualizado anualmente por la DIAN según la inflación del año.',
     },
@@ -322,15 +321,13 @@ export default {
       texto:
         'Ministerio de Hacienda y Crédito Público, (2017). Resolución 4056 del 1 de diciembre de 2017.',
       tipo: 'PDF',
-      link:
-        'https://xperta.legis.co/visor/temp_legcol_46e7f159-4907-491f-87ef-0a0ffb24ada1',
+      link: '/downloads/Anexo3.pdf',
     },
     {
       texto:
         'Secretaría de Hacienda Distrital, (2014), Resolución DDI-094892 del 23 de diciembre de 2014.',
       tipo: 'PDF',
-      link:
-        'https://www.shd.gov.co/shd/sites/default/files/normatividad/RESOLUCI%C3%93N%20DDI-094892%20AUTOLIQUIDACI%C3%93N.pdf',
+      link: '/downloads/Anexo4.pdf',
     },
     {
       texto: 'DIAN, (2020). Formulario 350.',

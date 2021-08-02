@@ -30,7 +30,7 @@
             .bloque-texto-b.color-secundario.p-4
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
-                p.mb-5 #[b Plataforma digital]: “Es un lugar de Internet, portal o cibersitio que sirve para almacenar diferentes tipos de información, tanto personal como a nivel de negocios”
+                p.mb-2 #[b Plataforma digital]: “Es un lugar de Internet, portal o cibersitio que sirve para almacenar diferentes tipos de información, tanto personal como a nivel de negocios”
                 p.mb-0 es.LinkFang.org, 2021
                 i.fas.fa-quote-right.d-flex.justify-content-end
         p Estas plataformas funcionan con determinados tipos de sistemas operativos y ejecutan programas o aplicaciones con diferentes contenidos, como pueden ser juegos, imágenes, texto, cálculos, simulaciones y vídeo, entre otros, que se pueden considerar agrupados en una colección de herramientas y servicios que una organización utiliza para desarrollar una estrategia digital.
@@ -50,7 +50,7 @@
             figure
               img(src='@/assets/curso/img1.png', style="width: 350px").m-auto
           .col-10
-            p.mb-0 #[b Predial]: en esta opción, la SHD genera el impuesto Predial según si el Contribuyente tiene la obligación, como lo establece el hecho generador que corresponde a la posesión de un bien inmueble en el municipio de Bogotá.
+            p.mb-0 #[b Predial]: en esta opción, la SHD genera el impuesto predial según si el contribuyente tiene la obligación, como lo establece el hecho generador que corresponde a la posesión de un bien inmueble en el municipio de Bogotá.
         .row.align-items-center
           .col-2.d-inline
             figure
@@ -74,7 +74,7 @@
             figure
               img(src='@/assets/curso/img5.png', style="width: 350px").m-auto
           .col-10
-            p.mb-0 #[b Vehiculos]: en esta opción, la SHD genera el impuesto de vehículo según si el Contribuyente tiene la obligación, como lo establece el hecho generador que corresponde a la posesión de un vehículo inscrito en el municipio de Bogotá.
+            p.mb-0 #[b Vehiculos]: en esta opción, la SHD genera el impuesto de vehículo según si el contribuyente tiene la obligación, como lo establece el hecho generador que corresponde a la posesión de un vehículo inscrito en el municipio de Bogotá.
     .row.justify-content-center
       .col-11
         .tarjeta.color-primario.p-3
@@ -104,7 +104,7 @@
           .col-8
             p #[b El formulario de Impuesto de Industria y Comercio, Avisos y Tableros está compuesto por:]
             a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/prueba.pdf')"
+              :href="obtenerLink('/downloads/Anexo1.pdf')"
               target="_blank"
               type="application/pdf"
               @mouseover="mostrarIndicador = false"
@@ -157,7 +157,7 @@
           .col-8
             p #[b Formulario Retención de ICA en Bogotá: se identifica con el código 131, donde se declaran las retenciones que practicó el contribuyente, siempre y cuando sea agente retenedor de Ica.]
             a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/prueba.pdf')"
+              :href="obtenerLink('/downloads/Anexo2.pdf')"
               target="_blank"
               type="application/pdf"
               @mouseover="mostrarIndicador = false"
@@ -228,12 +228,12 @@ export default {
     datosSlyder: [
       {
         texto:
-          'Los diferentes servicios en línea que presta la Secretaría de Hacienda Distrital (SHD), teniendo presente que, para acceder a los mismos, los contribuyentes deben estar inscritos en el RIT, que es el Registro de Identificación Tributaria, registrar la creación de un usuario y clave, ingresando a cualquier servicio y seleccionando la opción de obtener.',
+          'Los diferentes servicios en línea que presta la Secretaría de Hacienda Distrital (SHD), teniendo presente que, para acceder a los mismos, los contribuyentes deben estar inscritos en el RIT, que es el Registro de Identificación Tributaria, registrar la creación de un usuario y clave, ingresando a cualquier servicio y seleccionando la opción de obtener contraseña.',
         imagen: require('@/assets/curso/img50.svg'),
       },
       {
         texto:
-          'Esta ventana de la plataforma digital de la SHD permite crear los usuarios con la información básica de los contribuyentes y allí, con su documento de identidad, generar una contraseña para poder acceder a los servicios que ofrece el aplicativo de la secretaría.contraseña.',
+          'Esta ventana de la plataforma digital de la SHD permite crear los usuarios con la información básica de los contribuyentes y allí, con su documento de identidad, generar una contraseña para poder acceder a los servicios que ofrece el aplicativo de la secretaría.',
         imagen: require('@/assets/curso/img51.svg'),
       },
     ],
