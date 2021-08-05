@@ -224,9 +224,8 @@ export default {
       link: 'https://doi.org/10.15332/s0124-5805.2010.0015.03',
     },
     {
-      referencia:
-        'Es.linkfang.org. 2021. Plataforma digital. Plataforma digital - es.LinkFang.org.',
-      link: '',
+      referencia: 'Es.linkfang.org. 2021. Plataforma digital.',
+      link: 'https://es.linkfang.org/wiki/Plataforma_digital',
     },
     {
       referencia:
@@ -240,8 +239,9 @@ export default {
     },
     {
       referencia:
-        'Rankia (2019). ¿Qué son las plataformas digitales y para qué sirven? Rankia.co.',
-      link: '',
+        'Rankia (2019). ¿Qué son las plataformas digitales y para qué sirven?',
+      link:
+        'https://www.rankia.co/blog/analisis-colcap/4317884-que-son-plataformas-digitales-para-sirven',
     },
     {
       referencia:
@@ -314,7 +314,7 @@ export default {
     {
       texto: 'DIAN, (2020). Prevalidadores de información exógena.',
       tipo: 'Página web',
-      descarga:
+      link:
         'https://www.dian.gov.co/impuestos/sociedades/ExogenaTributaria/Prevalidadores/Paginas/default.aspx',
     },
     {
