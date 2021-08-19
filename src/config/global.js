@@ -321,13 +321,13 @@ export default {
       texto:
         'Ministerio de Hacienda y Crédito Público, (2017). Resolución 4056 del 1 de diciembre de 2017.',
       tipo: 'PDF',
-      link: '/downloads/Anexo3.pdf',
+      descarga: 'downloads/Anexo3.pdf',
     },
     {
       texto:
         'Secretaría de Hacienda Distrital, (2014), Resolución DDI-094892 del 23 de diciembre de 2014.',
       tipo: 'PDF',
-      link: '/downloads/Anexo4.pdf',
+      descarga: 'downloads/Anexo4.pdf',
     },
     {
       texto: 'DIAN, (2020). Formulario 350.',
